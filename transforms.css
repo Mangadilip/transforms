@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(192, 191, 191);
+    overflow-x: hidden;
+}
+.box1{
+    border: 1px solid white;
+    background-color: white;
+    /* padding: 30px; */
+    /* display: flex;  */
+    width: 98vw;
+}
+.innerbox{
+    background-color: aqua;
+    width: 80px;
+    padding:10px;
+    text-align: center;
+    height: 130px;
+    position:relative;
+    top: -50vh;
+    left: 60vw;
+    font-size: medium;
+}
+.main{
+    border: 2px solid;
+    padding: 5px;
+    height: 75vh;
+    font-size: small;
+   
+    
+}
+#b1:checked~.innerbox{
+    transform: none;
+}
+#b2:checked~.innerbox{
+    transform: rotate(10deg);
+}
+#b3:checked~.innerbox{
+    transform: rotate(45deg);
+}
+#b4:checked~.innerbox{
+    transform :rotate3d(1, 2, 1, 45deg);
+}
+#b5:checked~.innerbox{
+    transform :rotate3d(0, 1, 0, 60deg);
+}
+#b6:checked~.innerbox{
+    transform :rotateX(45deg);
+}
+#b7:checked~.innerbox{
+    transform :rotateX(100deg);
+}
+#b8:checked~.innerbox{
+    transform :rotateY(45deg);
+}
+#b9:checked~.innerbox{
+    transform: rotateY(80deg);
+}
+#b10:checked~.innerbox{
+    transform: rotateZ(45deg);
+}
+#b11:checked~.innerbox{
+    transform: rotateZ(90deg);
+}
+#b12:checked~.innerbox{
+    transform :skew(20deg,20deg);
+}
+#b13:checked~.innerbox{
+    transform :skew(30deg,30deg);
+}
+#b14:checked~.innerbox{
+    transform :skewX(30deg);
+}
+#b15:checked~.innerbox{
+    transform :skewX(40deg);
+}
+#b16:checked~.innerbox{
+    transform :skewY(30deg);
+}
+#b17:checked~.innerbox{
+    transform :skewY(40deg);
+}
+#b18:checked~.innerbox{
+    transform :translate(20px,10px);
+}
+#b19:checked~.innerbox{
+    transform :translate(20px,20px);
+}
+#b20:checked~.innerbox{
+    transform :scale(2,2);
+}
+#b21:checked~.innerbox{
+    transform :scale(2.5,3);
+}
+#b22:checked~.innerbox{
+    transform :scaleX(1.5);
+}
+#b23:checked~.innerbox{
+    transform :scaleX(50%);
+}
+#b24:checked~.innerbox{
+    transform :scaleY(1.5);;
+}
+#b25:checked~.innerbox{
+    transform :scaleX(1.5);
+}
+#b26:checked~.innerbox{
+    transform :scaleY(50%);
+}
+section{
+    perspective: 300px;
+}
